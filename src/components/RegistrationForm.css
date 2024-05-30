@@ -1,0 +1,85 @@
+/* RegistrationForm.css */
+
+.registration-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #faf1d5; /* Light background color */
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+   background-color: #faf1d5;
+  }
+  
+  .logo {
+    padding-top: 32px;
+    /* padding-bottom: 16px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 16px 24px; */
+    background-color:#faf1d5; /* Semi-transparent background */
+    color: #faf1d5;
+    z-index: 10;
+
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faf1d5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4f5255; /* Blue button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form button:hover {
+    background-color: #1d1d1e; /* Darker blue on hover */
+  }
+  
+  .join-now {
+    display: flex;
+    align-items: center;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .icon {
+    margin-right: 10px; /* Adjust the spacing between the icon and text */
+  }
+  

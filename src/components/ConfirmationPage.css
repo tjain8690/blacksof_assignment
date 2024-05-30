@@ -1,0 +1,41 @@
+/* ConfirmationPage.css */
+
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: #faf1d5; /* Set background color to yellow */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;}
+  
+  .gif-container {
+    padding-top: 20px; /* Apply padding */
+    text-align: center; /* Center align the GIF */
+  }
+  
+  .congratulations-text {
+    color: rgb(242, 162, 65); /* Apply red color */
+    font-weight: bold; /* Apply bold font weight */
+  }
+  
+  .waiting-list-message {
+    text-align: center; 
+    font-weight: bold;/* Center align the text */
+  }
+  
+  /* width:100%;height:0;padding-bottom:100%;position:relative; */
+
+  /* style="position:absolute" */
